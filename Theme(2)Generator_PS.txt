@@ -1,0 +1,31 @@
+$themepalette1 = @{
+"themePrimary" = "#e66e09";
+"themeLighterAlt" = "#fef8f2";
+"themeLighter" = "#fef0e5";
+"themeLight" = "#fde1cb";
+"themeTertiary" = "#fbc191";
+"themeSecondary" = "#f67a14";
+"themeDarkAlt" = "#cf6108";
+"themeDark" = "#a14c06";
+"themeDarker" = "#7e3c05";
+"neutralLighterAlt" = "#438ed0";
+"neutralLighter" = "#3f8ccf";
+"neutralLight" = "#3787cc";
+"neutralQuaternaryAlt" = "#317dc1";
+"neutralQuaternary" = "#2e78b8";
+"neutralTertiaryAlt" = "#2d73b1";
+"neutralTertiary" = "#c8c8c8";
+"neutralSecondary" = "#dadada";
+"neutralPrimaryAlt" = "#eaeaea";
+"neutralPrimary" = "#ffffff";
+"neutralDark" = "#f4f4f4";
+"black" = "#f8f8f8";
+"white" = "#4991d1";
+"primaryBackground" = "#4991d1";
+"primaryText" = "#ffffff";
+"bodyBackground" = "#4991d1";
+"bodyText" = "#ffffff";
+"disabledBackground" = "#3f8ccf";
+"disabledText" = "#2d73b1";
+}
+Add-SPOTheme -Name "AsleDemoTheme" -Palette $themepallette1 -IsInverted $false

@@ -1,0 +1,32 @@
+Theme Generator
+
+{
+  "themePrimary": "#1569ae",
+  "themeLighterAlt": "#f1f8fd",
+  "themeLighter": "#e3f0fc",
+  "themeLight": "#c7e2f8",
+  "themeTertiary": "#89c2f1",
+  "themeSecondary": "#187aca",
+  "themeDarkAlt": "#135e9c",
+  "themeDark": "#0f4979",
+  "themeDarker": "#0b3a5f",
+  "neutralLighterAlt": "#f8f8f8",
+  "neutralLighter": "#f4f4f4",
+  "neutralLight": "#eaeaea",
+  "neutralQuaternaryAlt": "#dadada",
+  "neutralQuaternary": "#d0d0d0",
+  "neutralTertiaryAlt": "#c8c8c8",
+  "neutralTertiary": "#595959",
+  "neutralSecondary": "#2f2f2f",
+  "neutralPrimaryAlt": "#252525",
+  "neutralPrimary": "#000000",
+  "neutralDark": "#151515",
+  "black": "#0b0b0b",
+  "white": "#fff",
+  "primaryBackground": "#fff",
+  "primaryText": "#000000",
+  "bodyBackground": "#fff",
+  "bodyText": "#000000",
+  "disabledBackground": "#f4f4f4",
+  "disabledText": "#c8c8c8"
+}

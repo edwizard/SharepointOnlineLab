@@ -1,0 +1,1 @@
+﻿Add-SPOSiteScript -Title "Standard dokumentoversikt" -Content $dokumentoversikt -Description "Oppretter en standard dokumentoversikt."
