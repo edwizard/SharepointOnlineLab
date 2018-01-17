@@ -1,0 +1,1 @@
+﻿Add-SPOSiteDesign -Title "SP Design with Sharepoint generic list" -WebTemplate "64" -SiteScripts "ID generated from SPOSiteScript command" -Description "SP Design with Sharepoint generic list"

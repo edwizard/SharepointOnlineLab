@@ -1,1 +1,0 @@
-﻿Add-SPOSiteDesign -Title "Script Test" -WebTemplate "64" -SiteScripts "3c501b63-653b-4b19-b651-46dfd9dfecf1" -Description "Script test"

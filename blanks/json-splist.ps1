@@ -1,41 +1,41 @@
-﻿$testvisning = @'
+﻿$sharepointlist = @'
 {
     "$schema": "schema.json",
         "actions": [
             {
                 "verb": "createSPList",
-                "listName": "Testvisning",
+                "listName": "Customer Tracking",
                 "templateType": 100,
                 "subactions": [
                     {
                         "verb": "SetDescription",
-                        "description": "Liste over dokumenter"
+                        "description": "List of Customers and Orders"
                     },
                     {
                         "verb": "addSPField",
                         "fieldType": "Text",
-                        "displayName": "Kundenavn",
+                        "displayName": "Customer Name",
                         "isRequired": false,
                         "addToDefaultView": true
                     },
                     {
                         "verb": "addSPField",
                         "fieldType": "Number",
-                        "displayName": "Antall",
+                        "displayName": "Requisition Total",
                         "addToDefaultView": true,
                         "isRequired": true
                     },
                     {
                         "verb": "addSPField",
                         "fieldType": "User",
-                        "displayName": "Kontaktinformasjon",
+                        "displayName": "Contact",
                         "addToDefaultView": true,
                         "isRequired": true
                     },
                     {
                         "verb": "addSPField",
                         "fieldType": "Note",
-                        "displayName": "Notater",
+                        "displayName": "Meeting Notes",
                         "isRequired": false
                     }
                 ]

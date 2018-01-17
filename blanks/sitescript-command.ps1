@@ -1,0 +1,1 @@
+﻿Add-SPOSiteScript -Title "Sharepoint generic list" -Content $sharepointlist -Description "Sharepoint generic list"
