@@ -26,6 +26,14 @@
                         "isRequired": true
                     },
                     {
+                        "verb": "addContentType",
+                        "name": "PID",
+                        "fieldType": "Text",
+                        "displayName": "Prosjekt ID",
+                        "addToDefaultView": true,
+                        "isRequired": true
+                    },
+                    {
                         "verb": "addSPField",
                         "fieldType": "User",
                         "displayName": "Kontakt",

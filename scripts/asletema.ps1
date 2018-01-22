@@ -1,4 +1,4 @@
-$themepallette = @{
+$asletema = @{
 "themePrimary" = "#0078d7";
 "themeLighterAlt" = "#eff6fc";
 "themeLighter" = "#deecf9";
