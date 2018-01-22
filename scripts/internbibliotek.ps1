@@ -1,10 +1,10 @@
-﻿$visning1 = @'
+﻿$internbibliotek = @'
 {
     "$schema": "schema.json",
         "actions": [
             {
                 "verb": "createSPList",
-                "listName": "visning1",
+                "listName": "internbibliotek",
                 "templateType": 100,
                 "subactions": [
                     {

@@ -1,1 +1,1 @@
-﻿Add-SPOSiteDesign -Title "Endringsoversikt" -WebTemplate "64" -SiteScripts "3616e519-2431-4821-9ced-ec9c59d1532d" -Description "Endringsoversikt"
+﻿Add-SPOSiteDesign -Title "Prosjektside" -WebTemplate "64" -SiteScripts "3216f0d8-d419-4c3d-a92b-0ac58c0c0f8c" -Description "Prosjektside"

@@ -1,3 +1,4 @@
+
 $endringsoversikt = @'
 {
     "$schema": "schema.json",
