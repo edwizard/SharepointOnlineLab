@@ -1,9 +1,10 @@
+﻿$contenttypetest = @'
 {
     "$schema": "schema.json",
         "actions": [
             {
                 "verb": "createSPList",
-                "listName": "visning1",
+                "listName": "contenttypetest",
                 "templateType": 100,
                 "subactions": [
                     {
@@ -19,8 +20,23 @@
                     },
                     {
                         "verb": "addSPField",
+                        "fieldType": "Text",
+                        "displayName": "Testfelt",
+                        "isRequired": false,
+                        "addToDefaultView": true
+                    },
+                    {
+                        "verb": "addSPField",
                         "fieldType": "Number",
                         "displayName": "Antall",
+                        "addToDefaultView": true,
+                        "isRequired": true
+                    },
+                    {
+                        "verb": "addContentType",
+                        "name": "PID",
+                        "fieldType": "Text",
+                        "displayName": "Prosjekt ID",
                         "addToDefaultView": true,
                         "isRequired": true
                     },
@@ -43,3 +59,4 @@
             "bindata": { },
     "version": 1
 }
+'@

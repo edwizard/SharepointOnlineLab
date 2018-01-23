@@ -5,8 +5,14 @@
             {
                 "verb": "createSPList",
                 "listName": "internbibliotek",
-                "templateType": 100,
+                "templateType": 101,
                 "subactions": [
+                    {
+                        "verb": "addNavLink",
+                        "url": "/internbibliotek",
+                        "displayName": "internbibliotek",
+                        "isWebRelative": true
+                    },
                     {
                         "verb": "SetDescription",
                         "description": "visning1"
@@ -15,6 +21,13 @@
                         "verb": "addSPField",
                         "fieldType": "Text",
                         "displayName": "Navn",
+                        "isRequired": false,
+                        "addToDefaultView": true
+                    },
+                    {
+                        "verb": "addSPField",
+                        "fieldType": "Text",
+                        "displayName": "Testfelt",
                         "isRequired": false,
                         "addToDefaultView": true
                     },
