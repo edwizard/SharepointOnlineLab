@@ -7,11 +7,14 @@
 ### $json = Get-Content 'c:\scripts\site-script.json' -Raw ###
 # /// When using .json-files instead of generating variables \\\ #
 
-# Creating a variable for json script
-$master = Get-Content 'C:\Users\edghol\Desktop\Powershell Scripts\SharepointOnlineLab\scripts\list-library-navlink.json' -Raw
+# Creating a variable for json script # lists and libraries
+    $master = Get-Content 'C:\Users\edghol\Desktop\Powershell Scripts\SharepointOnlineLab\scripts\list-library-navlink.json' -Raw
+
+#Creating a variable for json script # formatted list
+    $slave = Get-Content 'C:\Users\edghol\Desktop\Powershell Scripts\SharepointOnlineLab\scripts\formatted-list.json' -Raw
 
 # Creating a new theme that's available on team and communication sites
-    Add-SPOTheme -Name "Asletema" -Palette $asletema -IsInverted $false
+    #Add-SPOTheme -Name "Asletema" -Palette $asletema -IsInverted $false
 
 # Create ID for Site Script #
     $id = Add-SPOSiteScript -Title "master" -Content $master -Description "test #1"
