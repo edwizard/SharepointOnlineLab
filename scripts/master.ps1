@@ -17,13 +17,14 @@
     #Add-SPOTheme -Name "Asletema" -Palette $asletema -IsInverted $false
 
 # Create ID for Site Script #
-    $id = Add-SPOSiteScript -Title "master" -Content $master -Description "test #1"
+    $id1 = Add-SPOSiteScript -Title "master" -Content $master -Description "test #1"
+    $id2 = Add-SPOSiteScript -Title "slave" -Content $slave -Description "test #1"
 
 # Creating an array #
     # --- When adding more than one SiteScript to a design we have to add them to an array to function with -SiteScripts using CMDLet SPOSiteDesign.
-    $siteid = ($id.id)
+    $siteid = ($id1.id, $id2.id)
 
 # Adding a new Site Design #
     # --- WebTemplate 64 is for adding team sites, 68 is for communication sites. 
     # --- The site design is static, and contents doesn't have to be...
-Add-SPOSiteDesign -Title "Mal_Prosjektside" -WebTemplate "64" -SiteScripts $siteid -Description "Test #2 for standardisering av prosjektsider" 
+Add-SPOSiteDesign -Title "Test_Prosjektmal-1" -WebTemplate "64" -SiteScripts $siteid -Description "Test #1 - Formaterte lister, navlink-koblinger og egendefinerte listevisninger." 

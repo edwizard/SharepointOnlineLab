@@ -9,7 +9,7 @@
             "subactions": [
                 {
                     "verb": "setDescription",
-                    "description": "Prosjektaktiviteter"
+                    "description": "Liste med Prosjektaktiviteter"
                 },
                 {
                     "verb": "addSPField",
@@ -28,7 +28,7 @@
                 {
                     "verb": "addSPField",
                     "fieldType": "Note",
-                    "displayName": "Merknader",
+                    "displayName": "Merknad",
                     "addToDefaultView": true,
                     "isRequired": false
                 },
@@ -59,7 +59,7 @@
                                                     "@currentField"
                                                 ]
                                             },
-                                            "Ferdig"
+                                            "Done"
                                         ]
                                     },
                                     "sp-field-severity--good",
@@ -75,7 +75,7 @@
                                                             "@currentField"
                                                         ]
                                                     },
-                                                    "I arbeid"
+                                                    "In progress"
                                                 ]
                                             },
                                             "sp-field-severity--low",
@@ -91,7 +91,7 @@
                                                                     "@currentField"
                                                                 ]
                                                             },
-                                                            "Undersøkes"
+                                                            "In review"
                                                         ]
                                                     },
                                                     "sp-field-severity--warning",
@@ -107,7 +107,7 @@
                                                                             "@currentField"
                                                                         ]
                                                                     },
-                                                                    "Stoppet"
+                                                                    "Blocked"
                                                                 ]
                                                             },
                                                             "sp-field-severity--severeWarning",
@@ -141,7 +141,7 @@
                                                             "@currentField"
                                                         ]
                                                     },
-                                                    "Ferdig"
+                                                    "Done"
                                                 ]
                                             },
                                             "CheckMark",
@@ -157,7 +157,7 @@
                                                                     "@currentField"
                                                                 ]
                                                             },
-                                                            "I Arbeid"
+                                                            "In progress"
                                                         ]
                                                     },
                                                     "Forward",
@@ -173,7 +173,7 @@
                                                                             "@currentField"
                                                                         ]
                                                                     },
-                                                                    "Undersøkes"
+                                                                    "In review"
                                                                 ]
                                                             },
                                                             "Error",
@@ -189,7 +189,7 @@
                                                                                     "@currentField"
                                                                                 ]
                                                                             },
-                                                                            "Har problemer"
+                                                                            "Has issues"
                                                                         ]
                                                                     },
                                                                     "Warning",
@@ -300,30 +300,30 @@
         {
             "verb": "createSPList",
             "templateType": 101,
-            "listName": "Endringsoversikt",
+            "listName": "Prosjektdokumenter",
             "subactions": [
                 {
                     "verb": "setDescription",
-                    "description": "Endringsoversikt"
+                    "description": "A library of project-specific files"
                 },
                 {
                     "verb": "addSPField",
                     "fieldType": "DateTime",
-                    "displayName": "Sluttdato",
+                    "displayName": "Frist",
                     "addToDefaultView": true,
                     "isRequired": true
                 },
                 {
                     "verb": "addSPField",
                     "fieldType": "User",
-                    "displayName": "Ansatt",
+                    "displayName": "Kontakt",
                     "addToDefaultView": true,
                     "isRequired": true
                 },
 
                 {
                     "verb": "setSPFieldCustomFormatter",
-                    "fieldDisplayName": "Sluttdato",
+                    "fieldDisplayName": "Frist",
                     "formatterJSON": {
 
                         "elmType": "div",
@@ -351,14 +351,14 @@
         },
         {
             "verb": "addNavLink",
-            "url": "/Project Collateral",
-            "displayName": "Project Collateral",
+            "url": "/Prosjektdokumenter",
+            "displayName": "Prosjektdokumenter",
             "isWebRelative": true
         },
         {
             "verb": "addNavLink",
-            "url": "/Lists/Project Activities",
-            "displayName": "Project Activities",
+            "url": "/Lists/Prosjektaktivitetervities",
+            "displayName": "Prosjektaktivitetervities",
             "isWebRelative": true
         }
     ],
