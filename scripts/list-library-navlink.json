@@ -1,0 +1,134 @@
+{
+    "$schema": "schema.json",
+        "actions": [
+            {
+                "verb": "createSPList",
+                "listName": "Endringsliste",
+                "templateType": 100,
+                "subactions": [
+                    {
+                        "verb": "SetDescription",
+                        "description": "Endringsliste med eksempelfeltverdier"
+                    },
+                    {
+                        "verb": "addSPField",
+                        "fieldType": "Text",
+                        "displayName": "Tekstfelt",
+                        "isRequired": false,
+                        "addToDefaultView": true
+                    },
+                    {
+                        "verb": "addSPField",
+                        "fieldType": "Number",
+                        "displayName": "Tallverdier",
+                        "addToDefaultView": true,
+                        "isRequired": true
+                    },
+                    {
+                        "verb": "addSPField",
+                        "fieldType": "User",
+                        "displayName": "Personer",
+                        "addToDefaultView": true,
+                        "isRequired": true
+                    },
+                    {
+                        "verb": "addSPField",
+                        "fieldType": "Note",
+                        "displayName": "Merknad",
+                        "isRequired": false
+                    },
+                    {
+                        "verb": "addSPField",
+                        "fieldType": "Boolean",
+                        "displayName": "Booleanverdier",
+                        "isRequired": false
+                    },
+                    {
+                        "verb": "addSPField",
+                        "fieldType": "DateTime",
+                        "displayName": "Tid/Dato",
+                        "isRequired": false
+                    }
+                ]
+            },
+            {
+                "verb": "createSPList",
+                "listName": "Intern Dokumentvisning",
+                "templateType": 101,
+                "subactions": [
+                    {
+                        "verb": "SetDescription",
+                        "description": "Intern dokumentvisning uten rettighetsstyring"
+                    },
+                    {
+                        "verb": "addSPField",
+                        "fieldType": "Text",
+                        "displayName": "Tekstfelt",
+                        "isRequired": false,
+                        "addToDefaultView": true
+                    },
+                    {
+                        "verb": "addSPField",
+                        "fieldType": "Number",
+                        "displayName": "Tallverdier",
+                        "addToDefaultView": true,
+                        "isRequired": true
+                    },
+                    {
+                        "verb": "addSPField",
+                        "fieldType": "User",
+                        "displayName": "Personer",
+                        "addToDefaultView": true,
+                        "isRequired": true
+                    },
+                    {
+                        "verb": "addSPField",
+                        "fieldType": "Note",
+                        "displayName": "Merknader",
+                        "isRequired": false
+                    },
+                    {
+                        "verb": "addSPField",
+                        "fieldType": "Boolean",
+                        "displayName": "Booleanverdier",
+                        "isRequired": false
+                    },
+                    {
+                        "verb": "addSPField",
+                        "fieldType": "DateTime",
+                        "displayName": "Dato/Tid",
+                        "isRequired": false
+                    },
+                    {
+                        "verb": "addSPField",
+                        "fieldType": "Text",
+                        "displayName": "Tekstfelt 2",
+                        "isRequired": false,
+                        "addToDefaultView": true
+                    },
+                    {
+                        "verb": "deleteSPField",
+                        "fieldType": "Text",
+                        "displayName": "Tekstfelt 3",
+                        "isRequired": false,
+                        "addToDefaultView": true
+                    }
+                ]
+            },
+            {
+                "verb": "addNavLink",
+                "url": "/Intern dokumentvisning",
+                "displayName": "Intern dokumentvisning",
+                "isWebRelative": true
+            },
+            {
+                "verb": "addNavLink",
+                "url": "/Lists/Endringsliste",
+                "displayName": "Endringsliste",
+                "isWebRelative": true
+            }
+
+        ],
+            "bindata": { },
+    "version": 1
+};

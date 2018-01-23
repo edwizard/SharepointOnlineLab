@@ -1,1 +1,0 @@
-﻿Add-SPOTheme -Name "NewDefaultTheme" -Palette $themepallette -IsInverted $false
